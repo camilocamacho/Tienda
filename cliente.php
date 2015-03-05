@@ -4,7 +4,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <title></title>
@@ -17,7 +17,7 @@ and open the template in the editor.
         $result = mysql_query("SELECT j.nombre,j.descripcion,p.nombre,s.precio,s.cantidad FROM juego j,plataforma p,stock s where j.id=s.juego and p.id=s.plataforma and s.id=".$_GET['juego'], $link); 
         ?>
     <center>
-    <table style="width:80%" cellspacing="40">
+    <table style="" cellspacing="40">
         <tr>
             <td rowspan="2">
         <?php
